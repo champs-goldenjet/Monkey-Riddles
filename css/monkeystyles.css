@@ -1,0 +1,87 @@
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #dfdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 25px auto;
+}
+ 
+.col{
+    padding: 25px;
+    text-align: center;
+    flex: 1;
+    min-height: 450px;
+    background-color: rgb(134, 40, 40);
+    color: #b58b8b;
+    min-width: 30vw;
+    border-radius: 10px;
+    box-shadow: 4px 7px 4px 0px rgba(0 , 0, 0, 0.6);
+}
+
+.col.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    color:  rgb(134, 40, 40);
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.monkey-response {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Que-cont {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:x-large;
+}
+
+.btn-cont{
+    width: 100%;
+    text-align: center;
+}
+
+.form-control.yellow{
+    background-color: yellow;
+}
+
+button:hover{
+    background-color: orangered !important;
+    color: #fff !important;
+}
